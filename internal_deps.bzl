@@ -49,11 +49,11 @@ def rules_python_internal_deps():
         name = "bazel_gazelle",
         patch_args = ["-p1"],
         patches = ["@rules_python//gazelle:bazel_gazelle.pr1095.patch"],
-        sha256 = "0bb8056ab9ed4cbcab5b74348d8530c0e0b939987b0cfe36c1ab53d35a99e4de",
-        strip_prefix = "bazel-gazelle-2834ea44b3ec6371c924baaf28704730ec9d4559",
+        sha256 = "20ea11bdbd15ad17846f414c89eab4650a3d828e6de0b7abb27012c2ab34ecb6",
+        strip_prefix = "bazel-gazelle-981986502a5545665145d84720fdce9653fb06b9",
         urls = [
             # No release since March, and we need subsequent fixes
-            "https://github.com/bazelbuild/bazel-gazelle/archive/2834ea44b3ec6371c924baaf28704730ec9d4559.zip",
+            "https://github.com/bazelbuild/bazel-gazelle/archive/981986502a5545665145d84720fdce9653fb06b9.zip",
         ],
     )
 
